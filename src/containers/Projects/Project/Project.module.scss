@@ -1,0 +1,57 @@
+.Project{
+  overflow: hidden;
+  position: relative;
+  flex: 1 1 500px;
+  max-width: 1060px;
+  height: 51%;
+  background-position: center;
+  //background-size: cover;
+  margin: 15px 20px;
+  transform: matrix3d(0.99619, 0, -0.08715, 0.00029, 0, 1, 0, 0, 0.08715, 100, 0.99619, -0.00332, 500, 100, -50, 1.16667);
+  transition: all 1.5s cubic-bezier(.55, -0.50, .55, 1.50), background-size .5s ease-in;
+  transform-origin: left;
+  perspective: 1000px;
+  opacity: 0;
+  box-shadow: 0 5px 10px 10px rgba(77, 105, 127, 0.5);
+  background-size: 100%;
+  &:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(at 50% 50%,rgba(0,0,0, .1),rgba(0,0,0, .7), rgba(0,0,0, .9));
+    opacity: 0;
+    transition: all 1s cubic-bezier(.55, -0.50, .55, 1.50);
+
+  }
+  &:hover{
+    background-size: 110%;
+    &:after{
+      opacity: 1;
+    }
+  }
+  &__Active{
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+    &:hover > .Project__Text{
+      bottom: 20px;
+    }
+  }
+  &__Exit{
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  &__Text{
+    color: #fff;
+    text-shadow: 5px 5px 15px #000;
+    font-family: "Alegreya SC";
+    font-size: 40px;
+    position: absolute;
+    bottom: -150px;
+    left: 10%;
+    transition: all 1s cubic-bezier(.55, -0.50, .55, 1.50);
+    z-index: 2;
+
+  }
+}

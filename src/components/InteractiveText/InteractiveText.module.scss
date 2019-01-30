@@ -1,0 +1,12 @@
+.Interactive{
+  transition: all 2s ease-in;
+  position: fixed;
+  top: 20%;
+  left:30%;
+  z-index: 100;
+
+  &__Active{
+    transition: all 2s ease-in;
+  }
+
+}

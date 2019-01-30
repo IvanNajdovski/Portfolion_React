@@ -1,0 +1,247 @@
+.Tech {
+  position: relative;
+}
+
+.HTML {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 2s ease-in;
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #e34f26;
+  }
+}
+
+.Css {
+  position: absolute;
+  left: 160px;
+  top: 230px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #264EE4;
+  }
+}
+
+.Java {
+  position: absolute;
+  left: 150px;
+  top: 580px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #f7df1e;
+  }
+}
+
+.Node {
+  position: absolute;
+  left: 150px;
+  top: 730px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #44883e;
+  }
+}
+
+.Npm {
+  position: absolute;
+  left: 90px;
+  top: 630px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #cb3837;
+  }
+}
+
+.Sass {
+  position: absolute;
+  left: 360px;
+  top: 220px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #CE689A;
+  }
+}
+
+.Less {
+  position: absolute;
+  left: 760px;
+  top: 150px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #1A3457;
+  }
+}
+
+.React {
+  position: absolute;
+  left: 460px;
+  top: 520px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #00d8ff;
+  }
+}
+
+.Redux {
+  position: absolute;
+  left: 810px;
+  top: 550px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.Mongo {
+  position: absolute;
+  left: 450px;
+  top: 750px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.Native {
+  position: absolute;
+  left: 550px;
+  top: 390px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.Android {
+  position: absolute;
+  left: 710px;
+  top: 350px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.Beer {
+  position: absolute;
+  left: 980px;
+  top: 350px;
+  transform: translateY(-50%);
+  height: 80px;
+  width: 80px;
+  &Logo {
+    height: 100%;
+    width: 100%;
+    color: #E39C2A;
+  }
+}
+
+@keyframes path1 {
+  from {
+    stroke-dashoffset: 1350;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pathOne {
+  stroke-dashoffset: 50;
+  stroke-dasharray: 1000;
+  animation: path1 5s linear alternate;
+  animation-iteration-count: 1;
+}
+
+@keyframes path2 {
+  from {
+    stroke-dashoffset: 600;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pathTwo {
+  stroke-dashoffset: 600;
+  stroke-dasharray: 600;
+  animation: path2 3s linear forwards;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+}
+
+.pathThree {
+  stroke-dashoffset: 600;
+  stroke-dasharray: 600;
+  animation: path2 2s linear forwards;
+  animation-iteration-count: 1;
+  animation-delay: 6s;
+}
+
+@keyframes path3 {
+  from {
+    stroke-dashoffset: 1200;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pathFour {
+  stroke-dashoffset: 1200;
+  stroke-dasharray: 1200;
+  animation: path3 4s linear forwards;
+  animation-iteration-count: 1;
+  animation-delay: 9s;
+}
+
+.Logo {
+  height: 40px;
+  width: 40px;
+  color: #fff;
+}

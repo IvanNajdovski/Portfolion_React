@@ -1,0 +1,70 @@
+
+$color: rgb(0,0,0);;
+.Bg {
+  width: 0;
+  padding: 5px 0;
+  background-color: #fff;
+  transition: all 1s cubic-bezier(.55,-0.50,.55,1.50);
+  &Active{
+    width: 100%;
+  }
+}
+.Text {
+  color: #fff;
+  width: 100%;
+  &:after {
+    padding: 0 20px;
+    content: "Technologies";
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    mix-blend-mode: difference;
+  }
+}
+.Wrapper{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: skewX(-20deg);
+  transition: all 1s ease-in;
+  //width: 150px;
+}
+.BgRight {
+  width: 0;
+  padding: 5px 0;
+  background-color: $color;
+  transition: all 1s cubic-bezier(.55,-0.50,.55,1.50);
+  &Active{
+    width: 100%;
+  }
+}
+.TextRight {
+  color:  rgb(0, 0, 0);
+  width: 200px;
+
+
+  &:after {
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    content: "Projects";
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    mix-blend-mode: difference;
+  }
+}
+.WrapperRight{
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  transform: skewX(-20deg);
+  background-color: rgb(255,255,255);
+  width: 200px;
+  transition: all 1s ease-in;
+  //width: 150px;
+}

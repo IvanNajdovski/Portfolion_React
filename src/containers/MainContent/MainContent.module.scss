@@ -1,0 +1,65 @@
+.MainContent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.ContentLeft {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0% 0%, 55% 0%, 45% 100%, 0% 100%);
+  transition: all 1s cubic-bezier(.55, -0.50, .55, 1.50);
+  z-index: 10;
+  &Unactive {
+    clip-path: polygon(0% 0%, 50% 0%, 40% 100%, 0% 100%);
+    perspective: 1000px;
+    transform: rotateX(-20deg);
+  }
+  &Active {
+    clip-path: polygon(0% 0%, 60% 0%, 50% 100%, 0% 100%);
+  }
+  &Clicked {
+    clip-path: polygon(0% 0%, 95% 0%, 85% 100%, 0% 100%);
+  }
+  &Other{
+    clip-path: polygon(0% 0%, 15% 0%, 5% 100%, 0% 100%);
+  }
+}
+
+.ContentRight {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s cubic-bezier(.55, -0.50, .55, 1.50);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(55% 0%, 100% 0%, 100% 100%, 45% 100%);
+  &Unactive {
+    //perspective: 1000px;
+    transform: rotateX(20deg);
+    clip-path: polygon(60% 0%, 100% 0%, 100% 100%, 50% 100%);
+  }
+  &Active {
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 40% 100%);
+    z-index: 20;
+  }
+  &Clicked {
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 5% 100%);
+
+  }
+  &Other {
+    clip-path: polygon(95% 0%, 100% 0%, 100% 100%, 85% 100%);
+
+  }
+}

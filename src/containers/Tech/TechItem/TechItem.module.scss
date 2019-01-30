@@ -1,0 +1,29 @@
+.TechItem{
+  opacity: 0;
+  transition: all 1s ease-in;
+  cursor: pointer;
+  &Active{
+    opacity: 1;
+  }
+  &Exit{
+    opacity: 0;
+  }
+}
+
+.Text{
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Alegreya SC";
+  & span{
+    font-size: 20px;
+    font-weight: 900;
+  }
+  &__Wrapper{
+    position: absolute;
+    top:70%;
+    left: 74%;
+    transform: translateX(-50%);
+    z-index: 241;
+  }
+}

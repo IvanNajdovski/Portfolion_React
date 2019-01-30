@@ -1,0 +1,43 @@
+.Projects{
+  margin-top: 80px;
+  margin-left: 10%;
+  width: 150%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  transform: matrix(1, 0, -0.19815, 0.99619, 0, 0);
+
+}
+.ButtonLeft{
+  z-index: 200;
+  position: fixed;
+  top: 50%;
+  left: 15%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  &Icon{
+    color: rgba(175, 175, 175, 0.5);
+    height: 40px;
+    width: 40px;
+
+  }
+}
+.ButtonRight{
+  z-index: 200;
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  &Icon{
+    color: rgba(175, 175, 175, 0.5);
+    height: 40px;
+    width: 40px;
+
+  }
+}
