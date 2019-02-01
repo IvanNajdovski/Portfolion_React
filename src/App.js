@@ -42,7 +42,7 @@ class App extends Component {
                     <Header clicked={this.onAboutHandler}>
                         <Contact clicked={this.onMediaHandler}>
                             <SocialMedia direction={"-"}
-                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? -200 : -100}
+                                         distance={this.state.windowWidth > 800 ? -200 : -100}
                                          style={this.state.windowWidth < 500 ? {color: "#fff"} : {color: "#000"}}
                                          active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
@@ -50,20 +50,20 @@ class App extends Component {
                                 className={classes.Links}
                                 style={this.state.windowWidth < 500 ? {color: "#fff"} : {color: "#000"}}/></a></SocialMedia>
                             <SocialMedia direction={"-"}
-                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? -100 : -60}
+                                         distance={this.state.windowWidth > 800  ? -100 : -60}
                                          active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
                                 href={"https://www.facebook.com/ivan.najdovski.7"}><FaFacebook
                                 className={classes.Links}
                                 style={this.state.windowWidth < 500 ? {color: "#fff"} : {color: "#000"}}/></a></SocialMedia>
                             <SocialMedia direction={"+"}
-                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? 100 : 60}
+                                         distance={this.state.windowWidth > 800 < 500 ? 100 : 60}
                                          active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
                                 href={"https://www.instagram.com/ivannajdovski/?hl=en"}><FaInstagram
                                 style={{height: "100%", width: "100%", color: "#000"}}/></a></SocialMedia>
                             <SocialMedia direction={"+"}
-                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? 200 : 100}
+                                         distance={this.state.windowWidth > 800 < 500 ? 200 : 100}
                                          active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
                                 href={"https://www.linkedin.com/in/ivan-najdovski-4985a3167/"}><FaLinkedin

@@ -2,6 +2,9 @@
   position: fixed;
   padding-top: 170px;
   height: 100%;
+  @media only screen and (max-width: 600px){
+    padding-top: 100px;
+  }
 }
 .ContentLeft {
   width: 100%;
