@@ -1,5 +1,6 @@
 import React from 'react';
 import Letter from './Letter/Letter';
+import classes from './InteractiveText.module.scss';
 
 
 
@@ -23,8 +24,8 @@ const interactiveText = (props) => {
         )
     });
     return (
-        <div style={{width: "100%", paddingLeft: "50px", zIndex: 20, position: "fixed", top: "30%", left: "50%", transform: "translate(-50%,-50%)"}}>
-            <div style={{display: "flex"}}>
+        <div className={classes.Interactive} style={{top: `${props.top}`}}>
+            <div>
                 {text}
             </div>
         </div>

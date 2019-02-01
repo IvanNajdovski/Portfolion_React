@@ -11,7 +11,6 @@ import Tech from '../Tech/Tech';
 class MainContent extends Component{
     state = {
         side: null,
-        //clicked: null
     };
     onChangeClassHandler = () => {
         this.setState({side:"left"})
@@ -21,11 +20,10 @@ class MainContent extends Component{
     };
     onClickedHandler = () => {
         this.props.focusedTech()
-        //this.setState({clicked: this.state.clicked ? this.state.clicked === "left" ? "left" : null : "left"})
+
     };
     onClickedHandlerRight = () => {
         this.props.focusedProjects()
-        //this.setState({clicked: this.state.clicked ? null : "right"})
     };
     render(){
         let cssClassLeft = [classes.ContentLeft];
@@ -53,13 +51,13 @@ class MainContent extends Component{
                     onClick={this.onClickedHandler}
                     style={{backgroundImage: `linear-gradient( to bottom, rgba(0,0,0, .8) 0%,rgba(0,0,0, .8) 100%), url(${tech})`}}
                     onMouseEnter={this.onChangeClassHandler}
-                    className={cssClassLeft.join(" ")}>{this.props.clicked === "left" ? null : <Text state={this.state.side} clicked={this.props.clicked} left />}{this.props.clicked === "left" ? <Tech isClicked={this.props.clicked === "left"}/> : null}</div>
+                    className={cssClassLeft.join(" ")}>{this.props.clicked === "left" ? null : <Text side={"10%"} top={"10%"} state={this.state.side} clicked={this.props.clicked} left />}{this.props.clicked === "left" ? <Tech isClicked={this.props.clicked === "left"}/> : null}</div>
 
                 <div
                     onClick={this.onClickedHandlerRight}
                     style={{backgroundImage: `linear-gradient( to bottom, rgba(255,255,255, .8) 0%,rgba(255,255,255, .8) 100%), url(${projects})`}}
                     onMouseEnter={this.onChangeClassHandlerRight}
-                    className={cssClassRight.join(" ")}>{this.props.clicked === "right" ? null : <Text state={this.state.side} clicked={this.props.clicked}/> }{ <Projects active={this.props.clicked === "right"}/>}</div>
+                    className={cssClassRight.join(" ")}>{this.props.clicked === "right" ? null : <Text side={"10%"} top={"80%"} state={this.state.side} clicked={this.props.clicked}/> }{ <Projects active={this.props.clicked === "right"}/>}</div>
             </div>
         )
     }

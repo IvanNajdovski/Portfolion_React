@@ -6,12 +6,27 @@
   font-size: 35px;
   font-family: "Alegreya SC";
   font-weight: 900;
-  width: 20px;
+  width: 30px;
   height: 40px;
   position: relative;
   z-index: 30;
   text-shadow: 0px 0px 5px #fff;
   opacity: 0;
+  @media only screen and(max-width: 1200px){
+    font-size: 25px;
+    width: 20px;
+    height: 30px;
+  }
+  @media only screen and(max-width: 900px){
+    font-size: 20px;
+    width: 15px;
+    height: 20px;
+  }
+  @media only screen and(max-width: 900px){
+    font-size: 15px;
+    width: 10px;
+    height: 15px;
+  }
   &__Active{
     opacity: 1;
   }

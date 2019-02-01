@@ -17,12 +17,13 @@
   font-family: "Alegreya SC";
   & span{
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
+    font-family: "Josefin Sans";
   }
   &__Wrapper{
     position: absolute;
-    top:70%;
-    left: 74%;
+    top: 600px;
+    left: 70%;
     transform: translateX(-50%);
     z-index: 241;
   }

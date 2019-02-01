@@ -24,10 +24,25 @@ $color: rgb(0,0,0);;
     mix-blend-mode: difference;
   }
 }
+.Project{
+  color: #fff;
+  width: 100%;
+  white-space: nowrap;
+  &:after{
+    padding: 0 20px;
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    mix-blend-mode: difference;
+    content: "View Source"
+  }
+}
 .Wrapper{
   position: absolute;
-  top: 10%;
-  left: 10%;
+  z-index: 250;
   transform: skewX(-20deg);
   transition: all 1s ease-in;
   //width: 150px;
@@ -44,8 +59,6 @@ $color: rgb(0,0,0);;
 .TextRight {
   color:  rgb(0, 0, 0);
   width: 200px;
-
-
   &:after {
     color: rgb(255, 255, 255);
     padding: 0 20px;
@@ -57,10 +70,28 @@ $color: rgb(0,0,0);;
     text-align: center;
     mix-blend-mode: difference;
   }
+
+
+}
+.ProjectRight{
+  color:  rgb(0, 0, 0);
+  width: 200px;
+  white-space: nowrap;
+  &:after{
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    mix-blend-mode: difference;
+    content: "Lanch Page"
+  }
 }
 .WrapperRight{
   position: absolute;
-  top: 80%;
+  z-index: 250;
   right: 10%;
   transform: skewX(-20deg);
   background-color: rgb(255,255,255);

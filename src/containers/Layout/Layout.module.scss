@@ -1,14 +1,3 @@
-.App {
-  position: relative;
-  text-align: center;
-  box-sizing: border-box;
-
-  & > *{
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
-  }
-}
 .List{
   display: flex;
   position: fixed;

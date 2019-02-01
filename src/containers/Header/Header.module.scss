@@ -13,8 +13,10 @@
     list-style: none;
     & li{
       padding: 5px 10px;
-      font-family: "Alegreya SC";
+      font-family: "Josefin Sans";
+      font-weight: 900;
       color: #fff;
+      cursor: pointer;
     }
   }
 }

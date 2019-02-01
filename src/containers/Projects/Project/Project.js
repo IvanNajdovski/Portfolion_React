@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import classes from './Project.module.scss';
+import { Link } from 'react-router-dom';
 
 import Transition from 'react-transition-group/Transition';
 
@@ -7,6 +8,7 @@ class Project extends Component {
     state = {
         hovered: false
     };
+
     onHoverEnterHandler = () => {
         this.setState({hovered: true})
     };
@@ -22,7 +24,6 @@ class Project extends Component {
                 in={this.props.active}
                 timeout={2000}>
                 {state => {
-                    console.log(state)
                     const cssClass = [classes.Project];
                     if (state === "entered") {
                         cssClass.push(classes.Project__Active)
@@ -30,15 +31,15 @@ class Project extends Component {
                         cssClass.push(classes.Project__Exit)
                     }
                     return (
-                        <div
+                        <Link to={`/project/${this.props.baseName}`}
                             onMouseEnter={this.onHoverEnterHandler}
                             onMouseLeave={this.onHoverExitHandler}
                             style={{
                             ...this.props.styles,
                             backgroundImage: `url(${this.props.pic})`
                         }} className={cssClass.join(" ")}>
-                            <h2 className={classes.Project__Text}>Weather</h2>
-                        </div>
+                            <h2 className={classes.Project__Text}>{this.props.name}</h2>
+                        </Link>
                     )
                 }}
 

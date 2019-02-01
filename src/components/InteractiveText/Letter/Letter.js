@@ -19,7 +19,6 @@ class Letter extends Component {
     };
 
     componentDidMount() {
-        console.log(this.props.animation)
         let rect = ReactDOM.findDOMNode(this)
             .getBoundingClientRect();
         this.setState({left: rect.left, top: rect.top})
@@ -33,7 +32,7 @@ class Letter extends Component {
             const cssClass = [classes.Letters];
             if (this.state.active) {
                 cssClass.push(classes.Letters__Active)
-            }else if(this.props.active){
+            } else if (this.props.active) {
                 cssClass.push(classes.Letters__Exit)
             }
             return (

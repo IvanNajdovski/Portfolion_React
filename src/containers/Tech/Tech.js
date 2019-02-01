@@ -27,7 +27,6 @@ class Tech extends Component {
                 in={this.props.isClicked}
                 timeout={2000}>
                 {state => {
-                    console.log(state)
                     return (
                         <div className={classes.Tech} style={{padding: "0 50px"}}>
 
@@ -39,12 +38,12 @@ class Tech extends Component {
                             <TechItem type={'sass'} delay={"2"} styles={classes.Sass}><IoLogoSass className={classes.SassLogo}/></TechItem>
                             <TechItem type={'less'} delay={"5.5"} styles={classes.Less}><FaLess className={classes.LessLogo}/></TechItem>
                             <TechItem type={'react'} delay={"3"} styles={classes.React}><FaReact className={classes.ReactLogo}/></TechItem>
-                            <TechItem type={'redux'} delay={"5.5"} styles={classes.Redux}><img src={redux} className={classes.ReduxLogo}/></TechItem>
-                            <TechItem type={'reactNative'} delay={"5.5"} styles={classes.Native}><img src={native} className={classes.NativeLogo}/></TechItem>
-                            <TechItem type={'mongodb'} delay={"5"} styles={classes.Mongo}><img src={mongo} className={classes.MongoLogo}/></TechItem>
-                            <TechItem type={'androidStudio'} delay={"7"} styles={classes.Android}><img src={android} className={classes.AndroidLogo}/></TechItem>
+                            <TechItem type={'redux'} delay={"5.5"} styles={classes.Redux}><img alt={"logo"} src={redux} className={classes.ReduxLogo}/></TechItem>
+                            <TechItem type={'reactNative'} delay={"5.5"} styles={classes.Native}><img alt={"logo"} src={native} className={classes.NativeLogo}/></TechItem>
+                            <TechItem type={'mongodb'} delay={"5"} styles={classes.Mongo}><img alt={"logo"} src={mongo} className={classes.MongoLogo}/></TechItem>
+                            <TechItem type={'androidStudio'} delay={"7"} styles={classes.Android}><img alt={"logo"} src={android} className={classes.AndroidLogo}/></TechItem>
                             <TechItem type={'beer'} delay={"9"} styles={classes.Beer}><IoIosBeer className={classes.BeerLogo}/></TechItem>
-                            <svg width="100%" height="800">
+                            <svg className={classes.TechBox}>
                                 <path className={classes.pathOne} stroke={'#e34f26'} fill="transparent" strokeWidth="4"
                                       d="M0 375 100 250 "/>
                                 <path className={classes.pathOne} stroke={'#e34f26'} fill="transparent" strokeWidth="4"

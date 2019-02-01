@@ -5,7 +5,8 @@
   max-width: 1060px;
   height: 51%;
   background-position: center;
-  //background-size: cover;
+  background-size: cover;
+  background-position: center;
   margin: 15px 20px;
   transform: matrix3d(0.99619, 0, -0.08715, 0.00029, 0, 1, 0, 0, 0.08715, 100, 0.99619, -0.00332, 500, 100, -50, 1.16667);
   transition: all 1.5s cubic-bezier(.55, -0.50, .55, 1.50), background-size .5s ease-in;
@@ -13,7 +14,22 @@
   perspective: 1000px;
   opacity: 0;
   box-shadow: 0 5px 10px 10px rgba(77, 105, 127, 0.5);
-  background-size: 100%;
+  @media only screen and (max-width: 800px){
+    flex: 1 1 300px;
+    height: 45%;
+  }
+  @media only screen and (max-width: 600px){
+    flex: 1 1 300px;
+    height: 30%;
+  }
+  @media only screen and (max-width: 500px){
+    flex: 1 1 200px;
+    height: 30%;
+  }
+  @media only screen and (max-width: 400px){
+    flex: 1 1 150px;
+    height: 30%;
+  }
   &:after{
     content: "";
     display: block;
@@ -26,7 +42,6 @@
 
   }
   &:hover{
-    background-size: 110%;
     &:after{
       opacity: 1;
     }

@@ -21,7 +21,7 @@ const TYPES = {
     },
     node: {
         name: 'NodeJs',
-        type: 'Javascript Back-End executing JavaScript code server-side code',
+        type: 'Javascript Back-End executing JavaScript server-side code',
         expertise: 'Moderate'
     },
     npm: {
@@ -119,17 +119,17 @@ class TechItem extends Component {
                     } else if (state === "exiting") {
                         cssClass.push(classes.TechItemExit)
                     }
-                    console.log(state)
                     return (
                         <React.Fragment>
-                            {this.state.focused ? <BackDrop clicked={this.onFocusedHandler}/> : null}
+                            {this.state.focused ? <BackDrop focused={this.state.focused} clicked={this.onFocusedHandler}/> : null}
                             <div onClick={this.onFocusedHandler} style={this.state.focused ? {
                                 zIndex: "250",
                                 transitionDelay: "0s",
-                                top: "40%",
-                                left: "60%",
+                                top: "100px",
+                                left: "70%",
                                 height: "500px",
-                                width: "500px"
+                                width: "500px",
+                                transform: "translateX(-50%)"
                             } : this.state.first ? {transitionDelay: `${this.props.delay}s`} : {transitionDelay: `0s`}}
                                  className={cssClass.join(" ")}>{this.props.children}</div>
                             {text}

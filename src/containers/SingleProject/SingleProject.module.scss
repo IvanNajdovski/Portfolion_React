@@ -1,0 +1,83 @@
+.ContentLeft {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0% 0%, 55% 0%, 45% 100%, 0% 100%);
+}
+
+.ContentRight {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(55% 0%, 100% 0%, 100% 100%, 45% 100%);
+}
+
+.Content {
+pointer-events: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 200;
+  perspective: 300vw;
+  &__imgWrapper {
+    pointer-events: initial;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 40%;
+    box-shadow: 5px 5px 30px 5px #38012d;
+    border-radius: 10px;
+    overflow: hidden;
+    & img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__Tech {
+    pointer-events: none;
+    margin-top: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__Text {
+    pointer-events: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    & h3 {
+      margin-top: 22px;
+      font-family: "Alegreya SC";
+      font-size: 18px;
+      text-shadow: 0 0 15px #fff;
+    }
+  }
+}
+
+.Logo {
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  transition: all 1s cubic-bezier(.56, -0.65, .55, 1.53);
+
+  & img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &Active {
+    width: 45px;
+    height: 45px;
+    opacity: 1;
+  }
+}
