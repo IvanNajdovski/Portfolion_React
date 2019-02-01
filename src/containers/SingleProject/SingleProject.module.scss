@@ -1,3 +1,8 @@
+.SingleProject{
+  position: fixed;
+  padding-top: 170px;
+  height: 100%;
+}
 .ContentLeft {
   width: 100%;
   height: 100%;
@@ -29,7 +34,6 @@ pointer-events: none;
   perspective: 300vw;
   &__imgWrapper {
     pointer-events: initial;
-
     margin-right: auto;
     margin-left: auto;
     width: 60%;
@@ -37,6 +41,12 @@ pointer-events: none;
     box-shadow: 5px 5px 30px 5px #38012d;
     border-radius: 10px;
     overflow: hidden;
+    @media only screen and(max-width: 600px){
+      width: 80%;
+    }
+    @media only screen and(max-width: 400px){
+      width: 95%;
+    }
     & img {
       width: 100%;
       object-fit: cover;
@@ -50,17 +60,35 @@ pointer-events: none;
     margin-left: auto;
     display: flex;
     justify-content: space-evenly;
+    @media only screen and(max-width: 600px){
+      width: 80%;
+    }
+    @media only screen and(max-width: 400px){
+      width: 95%;
+    }
   }
   &__Text {
     pointer-events: none;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    @media only screen and(max-width: 600px){
+      width: 80%;
+    }
+    @media only screen and(max-width: 400px){
+      width: 95%;
+    }
     & h3 {
       margin-top: 22px;
       font-family: "Alegreya SC";
       font-size: 18px;
       text-shadow: 0 0 15px #fff;
+      @media only screen and(max-width: 600px){
+        font-size: 16px;
+      }
+      @media only screen and(max-width: 400px){
+        font-size: 14px;
+      }
     }
   }
 }

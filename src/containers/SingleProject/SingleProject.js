@@ -224,7 +224,7 @@ class SingleProject extends Component {
                         style={{backgroundImage: `linear-gradient( to bottom, rgba(255,255,255, .8) 0%,rgba(255,255,255, .8) 100%), url(${projectsPic})`}}>
 
                     </div>
-                    <InteractiveText top={'10%'} text={PROJECTS[this.state.project].name}/>
+                    <InteractiveText top={'100px'} text={PROJECTS[this.state.project].name}/>
                     <div className={classes.Content} ref={this.positionParent}>
                         <div
                             style={{transform: `rotateY(${this.state.rotateX*15}deg) rotateX(${this.state.rotateY*15}deg)` }}
@@ -247,7 +247,7 @@ class SingleProject extends Component {
             )
         }
         return (
-            <div style={{position: "fixed", paddingTop: "10%"}}>
+            <div className={classes.SingleProject}>
 
                 {project}
             </div>

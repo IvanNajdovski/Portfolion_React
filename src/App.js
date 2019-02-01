@@ -18,9 +18,11 @@ class App extends Component {
         aboutActive: null,
         windowWidth: null
     };
-    componentDidMount(){
+
+    componentDidMount() {
         this.setState({windowWidth: window.innerWidth});
     }
+
     onMediaHandler = () => {
         this.setState(prevState => {
             return {iconsActive: !prevState.iconsActive, initialAnimate: true}
@@ -28,9 +30,10 @@ class App extends Component {
     };
     onAboutHandler = () => {
         this.setState(prevState => {
-            return{aboutActive: !prevState.aboutActive}
+            return {aboutActive: !prevState.aboutActive}
         })
     };
+
     render() {
         return (
             <BrowserRouter basename={"/portfolio"}>
@@ -38,19 +41,30 @@ class App extends Component {
                     <About active={this.state.aboutActive}/>
                     <Header clicked={this.onAboutHandler}>
                         <Contact clicked={this.onMediaHandler}>
-                            <SocialMedia direction={"-"} distance={this.state.windowWidth > 800 ? -200 : -100} active={this.state.iconsActive}><a
+                            <SocialMedia direction={"-"}
+                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? -200 : -100}
+                                         style={this.state.windowWidth < 500 ? {color: "#fff"} : {color: "#000"}}
+                                         active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
                                 href={"https://github.com/IvanNajdovski"}><FaGithub
-                                style={{height: "100%", width: "100%", color: "#000"}}/></a></SocialMedia>
-                            <SocialMedia direction={"-"} distance={this.state.windowWidth > 800 ? -100 : -60} active={this.state.iconsActive}><a
+                                className={classes.Links}
+                                style={this.state.windowWidth < 500 ? {color: "#fff"} : {color: "#000"}}/></a></SocialMedia>
+                            <SocialMedia direction={"-"}
+                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? -100 : -60}
+                                         active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
                                 href={"https://www.facebook.com/ivan.najdovski.7"}><FaFacebook
-                                style={{height: "100%", width: "100%", color: "#000"}}/></a></SocialMedia>
-                            <SocialMedia direction={"+"} distance={this.state.windowWidth > 800 ? 100 : 60} active={this.state.iconsActive}><a
+                                className={classes.Links}
+                                style={this.state.windowWidth < 500 ? {color: "#fff"} : {color: "#000"}}/></a></SocialMedia>
+                            <SocialMedia direction={"+"}
+                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? 100 : 60}
+                                         active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
                                 href={"https://www.instagram.com/ivannajdovski/?hl=en"}><FaInstagram
                                 style={{height: "100%", width: "100%", color: "#000"}}/></a></SocialMedia>
-                            <SocialMedia direction={"+"} distance={this.state.windowWidth > 800 ? 200 : 100} active={this.state.iconsActive}><a
+                            <SocialMedia direction={"+"}
+                                         distance={this.state.windowWidth > 800 || this.state.windowWidth < 500 ? 200 : 100}
+                                         active={this.state.iconsActive}><a
                                 style={this.state.iconsActive ? null : {pointerEvents: "none"}}
                                 href={"https://www.linkedin.com/in/ivan-najdovski-4985a3167/"}><FaLinkedin
                                 style={{height: "100%", width: "100%", color: "#000"}}/></a></SocialMedia>

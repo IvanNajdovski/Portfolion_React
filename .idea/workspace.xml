@@ -2,44 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0807da-37b9-4d34-9cfe-d9cdf3977670" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/About/About.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/About/About.module.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/Layout/Layout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/Layout/Layout.module.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change beforePath="$PROJECT_DIR$/src/App.module.scss" afterPath="$PROJECT_DIR$/src/App.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/assets/project__1/desktop.jpg" afterPath="$PROJECT_DIR$/src/assets/project__1/desktop.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/assets/project__2/desktop.jpg" afterPath="$PROJECT_DIR$/src/assets/project__2/desktop.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/assets/project__3/desktop.jpg" afterPath="$PROJECT_DIR$/src/assets/project__3/desktop.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/assets/project__4/desktop.jpg" afterPath="$PROJECT_DIR$/src/assets/project__4/desktop.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/assets/project__5/desktop.jpg" afterPath="$PROJECT_DIR$/src/assets/project__5/desktop.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/assets/project__6/desktop.jpg" afterPath="$PROJECT_DIR$/src/assets/project__6/desktop.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/components/InteractiveText/InteractiveText.js" afterPath="$PROJECT_DIR$/src/components/InteractiveText/InteractiveText.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/InteractiveText/InteractiveText.module.scss" afterPath="$PROJECT_DIR$/src/components/InteractiveText/InteractiveText.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/InteractiveText/Letter/Letter.js" afterPath="$PROJECT_DIR$/src/components/InteractiveText/Letter/Letter.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/InteractiveText/Letter/Letter.module.scss" afterPath="$PROJECT_DIR$/src/components/InteractiveText/Letter/Letter.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/BackDrop/BackDrop.js" afterPath="$PROJECT_DIR$/src/components/UI/BackDrop/BackDrop.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/BackDrop/BackDrop.module.scss" afterPath="$PROJECT_DIR$/src/components/UI/BackDrop/BackDrop.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Text/Text.js" afterPath="$PROJECT_DIR$/src/components/UI/Text/Text.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.module.scss" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.module.scss" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Text/Text.module.scss" afterPath="$PROJECT_DIR$/src/components/UI/Text/Text.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.js" afterPath="$PROJECT_DIR$/src/containers/Header/Header.js" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header/Header.module.scss" afterPath="$PROJECT_DIR$/src/containers/Header/Header.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MainContent/MainContent.js" afterPath="$PROJECT_DIR$/src/containers/MainContent/MainContent.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Project/Project.js" afterPath="$PROJECT_DIR$/src/containers/Projects/Project/Project.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Project/Project.module.scss" afterPath="$PROJECT_DIR$/src/containers/Projects/Project/Project.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.js" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.module.scss" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Tech/Tech.js" afterPath="$PROJECT_DIR$/src/containers/Tech/Tech.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js" afterPath="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss" afterPath="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss" />
       <change beforePath="$PROJECT_DIR$/src/containers/Tech/Tech.module.scss" afterPath="$PROJECT_DIR$/src/containers/Tech/Tech.module.scss" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.js" afterPath="$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.module.scss" afterPath="$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.module.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46139476">
+    <splitter split-orientation="horizontal" split-proportion="0.511208">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="Tech.js" pinned="false" current-in-tab="false">
@@ -67,8 +38,8 @@
           <file leaf-file-name="Tech.module.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/Tech/Tech.module.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="21">
-                  <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                <state relative-caret-position="147">
+                  <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -78,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="448">
-                  <caret line="123" column="130" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="130" />
+                  <caret line="123" column="130" lean-forward="false" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="130" />
                   <folding>
                     <element signature="e#226#1984#0" expanded="false" />
                   </folding>
@@ -110,7 +81,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BackDrop.module.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BackDrop.module.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/UI/BackDrop/BackDrop.module.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="63">
@@ -120,28 +91,40 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="MainContent.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/MainContent/MainContent.js">
+          <file leaf-file-name="SingleProject.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-                  <folding />
+                <state relative-caret-position="644">
+                  <caret line="249" column="49" lean-forward="false" selection-start-line="249" selection-start-column="49" selection-end-line="249" selection-end-column="49" />
+                  <folding>
+                    <element signature="e#7337#9761#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="44" column="107" lean-forward="false" selection-start-line="44" selection-start-column="107" selection-end-line="44" selection-end-column="107" />
+                <state relative-caret-position="483">
+                  <caret line="51" column="56" lean-forward="false" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="App.module.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/App.module.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -156,34 +139,42 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Layout.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/Layout/Layout.js">
+          <file leaf-file-name="Header.module.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.module.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-525">
-                  <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+                <state relative-caret-position="273">
+                  <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="About.module.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/About/About.module.scss">
+          <file leaf-file-name="Text.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/UI/Text/Text.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+                <state relative-caret-position="126">
+                  <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
+          <file leaf-file-name="Text.module.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/UI/Text/Text.module.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="86" column="54" lean-forward="false" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="315">
+                  <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SingleProject.module.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="784">
+                  <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -200,29 +191,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Contact.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Contact.module.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.module.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="42">
-                  <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+                <state relative-caret-position="105">
+                  <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TechItem.module.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TechItem.module.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.module.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="525">
@@ -249,7 +228,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/UI/SocialMedia/SocialMedia.js" />
         <option value="$PROJECT_DIR$/src/components/UI/SocialMedia/SocialMedia.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/Contact/Contact.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Letter/Letter.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
         <option value="$PROJECT_DIR$/src/components/Letter/Letter.module.scss" />
@@ -263,17 +241,12 @@
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Contact/Contact.js" />
         <option value="$PROJECT_DIR$/src/containers/Layout/Layout.module.scss" />
-        <option value="$PROJECT_DIR$/src/App.module.scss" />
         <option value="$PROJECT_DIR$/src/components/InteractiveText/Letter/Letter.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Project/Project.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Text/Text.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Text/Text.module.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Header/Header.module.scss" />
-        <option value="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss" />
         <option value="$PROJECT_DIR$/src/components/About/About.js" />
         <option value="$PROJECT_DIR$/src/components/UI/BackDrop/BackDrop.js" />
         <option value="$PROJECT_DIR$/src/containers/Header/Header.js" />
@@ -282,16 +255,22 @@
         <option value="$PROJECT_DIR$/src/components/InteractiveText/InteractiveText.module.scss" />
         <option value="$PROJECT_DIR$/src/containers/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/containers/MainContent/MainContent.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Projects.module.scss" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Project/Project.module.scss" />
         <option value="$PROJECT_DIR$/src/components/About/About.module.scss" />
         <option value="$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.module.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Tech/Tech.module.scss" />
         <option value="$PROJECT_DIR$/src/containers/Tech/Tech.js" />
         <option value="$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.js" />
         <option value="$PROJECT_DIR$/src/components/UI/BackDrop/BackDrop.module.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Tech/Tech.module.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Header/Header.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/Contact/Contact.module.scss" />
+        <option value="$PROJECT_DIR$/src/App.module.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js" />
+        <option value="$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/UI/Text/Text.module.scss" />
       </list>
     </option>
   </component>
@@ -369,30 +348,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="BackDrop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="Button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="SocialMedia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -642,12 +597,12 @@
       <workItem from="1548940301481" duration="16806000" />
       <workItem from="1548964345599" duration="10479000" />
       <workItem from="1549012160974" duration="5868000" />
-      <workItem from="1549027989591" duration="7491000" />
+      <workItem from="1549027989591" duration="9459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107120000" />
+    <option name="totallyTimeSpent" value="109088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -806,14 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/InteractiveText/Letter/Letter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -853,47 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Text/Text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3738">
-          <caret line="214" column="68" lean-forward="false" selection-start-line="214" selection-start-column="68" selection-end-line="214" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#7337#9761#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -906,14 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Text/Text.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/InteractiveText/Letter/Letter.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -922,22 +824,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/InteractiveText/InteractiveText.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -953,26 +845,10 @@
     <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Layout/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,16 +857,6 @@
         <state relative-caret-position="357">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="44" column="107" lean-forward="false" selection-start-line="44" selection-start-column="107" selection-end-line="44" selection-end-column="107" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,14 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Project/Project.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1046,22 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Tech/Tech.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Tech/Tech.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1075,7 +917,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="123" column="130" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="130" />
+          <caret line="123" column="130" lean-forward="false" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="130" />
           <folding>
             <element signature="e#226#1984#0" expanded="false" />
           </folding>
@@ -1096,6 +938,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Tech/Tech.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Tech/TechItem/TechItem.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Header/Header.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Layout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Project/Project.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="51" column="56" lean-forward="false" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SingleProject/SingleProject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="249" column="49" lean-forward="false" selection-start-line="249" selection-start-column="49" selection-end-line="249" selection-end-column="49" />
+          <folding>
+            <element signature="e#7337#9761#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SingleProject/SingleProject.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Text/Text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Text/Text.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
